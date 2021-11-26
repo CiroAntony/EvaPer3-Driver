@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566673082750194A00208A76 /* forgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566673072750194A00208A76 /* forgotPassViewController.swift */; };
+		567C49142750822A007812A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 567C49132750822A007812A8 /* GoogleService-Info.plist */; };
+		569CF3032731A14C006C2AE0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569CF3022731A14C006C2AE0 /* RegisterViewController.swift */; };
+		97E17FCB90653ED9D1DDD6D7 /* Pods_EvaPer3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9812E829437D16DA1D864BEF /* Pods_EvaPer3.framework */; };
+		F278F92327309B1300B3FF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278F92227309B1300B3FF6E /* AppDelegate.swift */; };
+		F278F92527309B1300B3FF6E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F278F92427309B1300B3FF6E /* AuthViewController.swift */; };
+		F278F92827309B1300B3FF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F278F92627309B1300B3FF6E /* Main.storyboard */; };
+		F278F92A27309B1800B3FF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F278F92927309B1800B3FF6E /* Assets.xcassets */; };
+		F278F92D27309B1800B3FF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F278F92B27309B1800B3FF6E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		302F9D9CF02DE7675045C054 /* Pods-EvaPer3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvaPer3.debug.xcconfig"; path = "Target Support Files/Pods-EvaPer3/Pods-EvaPer3.debug.xcconfig"; sourceTree = "<group>"; };
+		566673072750194A00208A76 /* forgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPassViewController.swift; sourceTree = "<group>"; };
+		567C49132750822A007812A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		569CF3022731A14C006C2AE0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		58ECF5275CD8E0CB43E56087 /* Pods-AppCL2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCL2.release.xcconfig"; path = "Target Support Files/Pods-AppCL2/Pods-AppCL2.release.xcconfig"; sourceTree = "<group>"; };
+		9812E829437D16DA1D864BEF /* Pods_EvaPer3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvaPer3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E85BAFDE391EEA97C11C4EC /* Pods-AppCL2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCL2.debug.xcconfig"; path = "Target Support Files/Pods-AppCL2/Pods-AppCL2.debug.xcconfig"; sourceTree = "<group>"; };
+		B299D9A5B4B75F79E8F99CBA /* Pods-EvaPer3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvaPer3.release.xcconfig"; path = "Target Support Files/Pods-EvaPer3/Pods-EvaPer3.release.xcconfig"; sourceTree = "<group>"; };
+		F278F91F27309B1300B3FF6E /* EvaPer3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvaPer3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F278F92227309B1300B3FF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F278F92427309B1300B3FF6E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F278F92727309B1300B3FF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F278F92927309B1800B3FF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F278F92C27309B1800B3FF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F278F92E27309B1800B3FF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F278F91C27309B1300B3FF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E17FCB90653ED9D1DDD6D7 /* Pods_EvaPer3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15A439DB006A1A72A229F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9812E829437D16DA1D864BEF /* Pods_EvaPer3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA4FD63167C9C42EB93D112F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E85BAFDE391EEA97C11C4EC /* Pods-AppCL2.debug.xcconfig */,
+				58ECF5275CD8E0CB43E56087 /* Pods-AppCL2.release.xcconfig */,
+				302F9D9CF02DE7675045C054 /* Pods-EvaPer3.debug.xcconfig */,
+				B299D9A5B4B75F79E8F99CBA /* Pods-EvaPer3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F278F91627309B1300B3FF6E = {
+			isa = PBXGroup;
+			children = (
+				F278F92127309B1300B3FF6E /* EvaPer3 */,
+				F278F92027309B1300B3FF6E /* Products */,
+				BA4FD63167C9C42EB93D112F /* Pods */,
+				B15A439DB006A1A72A229F3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F278F92027309B1300B3FF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F278F91F27309B1300B3FF6E /* EvaPer3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F278F92127309B1300B3FF6E /* EvaPer3 */ = {
+			isa = PBXGroup;
+			children = (
+				F278F92227309B1300B3FF6E /* AppDelegate.swift */,
+				F278F92427309B1300B3FF6E /* AuthViewController.swift */,
+				F278F92627309B1300B3FF6E /* Main.storyboard */,
+				F278F92927309B1800B3FF6E /* Assets.xcassets */,
+				F278F92B27309B1800B3FF6E /* LaunchScreen.storyboard */,
+				F278F92E27309B1800B3FF6E /* Info.plist */,
+				567C49132750822A007812A8 /* GoogleService-Info.plist */,
+				569CF3022731A14C006C2AE0 /* RegisterViewController.swift */,
+				566673072750194A00208A76 /* forgotPassViewController.swift */,
+			);
+			path = EvaPer3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F278F91E27309B1300B3FF6E /* EvaPer3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F278F93127309B1800B3FF6E /* Build configuration list for PBXNativeTarget "EvaPer3" */;
+			buildPhases = (
+				60F0776896561651CB859440 /* [CP] Check Pods Manifest.lock */,
+				F278F91B27309B1300B3FF6E /* Sources */,
+				F278F91C27309B1300B3FF6E /* Frameworks */,
+				F278F91D27309B1300B3FF6E /* Resources */,
+				9D1DC1F73A508FB19FFF4C05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvaPer3;
+			productName = AppCL2;
+			productReference = F278F91F27309B1300B3FF6E /* EvaPer3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F278F91727309B1300B3FF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Juan Santa Cruz";
+				TargetAttributes = {
+					F278F91E27309B1300B3FF6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F278F91A27309B1300B3FF6E /* Build configuration list for PBXProject "EvaPer3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F278F91627309B1300B3FF6E;
+			productRefGroup = F278F92027309B1300B3FF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F278F91E27309B1300B3FF6E /* EvaPer3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F278F91D27309B1300B3FF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F278F92D27309B1800B3FF6E /* LaunchScreen.storyboard in Resources */,
+				567C49142750822A007812A8 /* GoogleService-Info.plist in Resources */,
+				F278F92A27309B1800B3FF6E /* Assets.xcassets in Resources */,
+				F278F92827309B1300B3FF6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60F0776896561651CB859440 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvaPer3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1DC1F73A508FB19FFF4C05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvaPer3/Pods-EvaPer3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EvaPer3/Pods-EvaPer3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EvaPer3/Pods-EvaPer3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F278F91B27309B1300B3FF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566673082750194A00208A76 /* forgotPassViewController.swift in Sources */,
+				569CF3032731A14C006C2AE0 /* RegisterViewController.swift in Sources */,
+				F278F92527309B1300B3FF6E /* AuthViewController.swift in Sources */,
+				F278F92327309B1300B3FF6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F278F92627309B1300B3FF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F278F92727309B1300B3FF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F278F92B27309B1800B3FF6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F278F92C27309B1800B3FF6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F278F92F27309B1800B3FF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F278F93027309B1800B3FF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F278F93227309B1800B3FF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302F9D9CF02DE7675045C054 /* Pods-EvaPer3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EvaPer3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VasquezCiro.EvaPer3;
+				PRODUCT_NAME = EvaPer3;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F278F93327309B1800B3FF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B299D9A5B4B75F79E8F99CBA /* Pods-EvaPer3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EvaPer3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VasquezCiro.EvaPer3;
+				PRODUCT_NAME = EvaPer3;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F278F91A27309B1300B3FF6E /* Build configuration list for PBXProject "EvaPer3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F278F92F27309B1800B3FF6E /* Debug */,
+				F278F93027309B1800B3FF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F278F93127309B1800B3FF6E /* Build configuration list for PBXNativeTarget "EvaPer3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F278F93227309B1800B3FF6E /* Debug */,
+				F278F93327309B1800B3FF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F278F91727309B1300B3FF6E /* Project object */;
+}
