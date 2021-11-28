@@ -160,7 +160,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="EDs-m5-bTU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5J7-x0-NgD"/>
                             <constraint firstItem="EDs-m5-bTU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KJO-Sb-zat"/>
@@ -177,6 +177,7 @@
                         <outlet property="emailTextField" destination="Tpy-OL-0Dt" id="PRc-om-ysZ"/>
                         <outlet property="ingresarButton" destination="ljk-pW-qlw" id="IOW-LT-DgU"/>
                         <outlet property="passwordTextField" destination="vCw-3y-zBj" id="3E2-wk-XJw"/>
+                        <outlet property="recuperarButton" destination="zta-P1-7fz" id="bdB-j2-Pmx"/>
                         <outlet property="registrarButton" destination="2JU-bw-JLd" id="IHC-WD-WIs"/>
                     </connections>
                 </viewController>
@@ -193,7 +194,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j6u-7l-VHh">
-                                <rect key="frame" x="16" y="16" width="382" height="460"/>
+                                <rect key="frame" x="16" y="16" width="382" height="400"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registrar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zv9-M9-XIW">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="40"/>
@@ -244,16 +245,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tipo de Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="unE-Sr-GQY">
-                                        <rect key="frame" x="0.0" y="350" width="382" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="3Bp-Xh-uwo"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDW-1M-GLc">
-                                        <rect key="frame" x="0.0" y="410" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="350" width="382" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="KOT-xv-Kex"/>
@@ -272,7 +265,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="j6u-7l-VHh" firstAttribute="top" secondItem="vsE-Rr-HBe" secondAttribute="top" constant="16" id="TcQ-1R-ki7"/>
                             <constraint firstItem="j6u-7l-VHh" firstAttribute="leading" secondItem="vsE-Rr-HBe" secondAttribute="leading" constant="16" id="UVk-HI-HtU"/>
@@ -286,7 +279,6 @@
                         <outlet property="lastNameTextField" destination="Zew-Wb-rZa" id="pGv-cY-ih6"/>
                         <outlet property="nameTextField" destination="aYc-Vn-TJl" id="OFm-k4-IzI"/>
                         <outlet property="passwordTextField" destination="6PK-69-XsT" id="8rZ-EJ-Gs9"/>
-                        <outlet property="tipoTextField" destination="unE-Sr-GQY" id="tYB-dM-Nhh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iaN-Yw-dJS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -355,7 +347,8 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="S7S-r3-Mxf" firstAttribute="trailing" secondItem="Jo6-3G-hpC" secondAttribute="trailing" constant="16" id="7FM-R3-DaG"/>
                             <constraint firstItem="Jo6-3G-hpC" firstAttribute="top" secondItem="S7S-r3-Mxf" secondAttribute="top" constant="16" id="DAO-Jb-dQi"/>
